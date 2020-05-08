@@ -1,0 +1,15 @@
+{
+  "name"  :   ["number"],
+  "Q"     :   ["S A B C D E F G H I J K"],
+  "sigma" :   ["0 1 2 3 4 5 6 7 8 9 . x X A B C D E F"],
+  "q0"    :   ["S"],
+  "F"     :   ["A,const B,const C,OCT E,HEX G,float J,float"],
+  "t"     :   ["0,SA 1,SB 2,SB 3,SB 4,SB 5,SB 6,SB 7,SB 8,SB 9,SB ",
+               "0,AA 1,AC 2,AC 3,AC 4,AC 5,AC 6,AC 7,AC 8,AK 9,AK x,AD X,AD .,AF e,AH E,AH ",
+               ".,BF e,BH E,BH digit,BB ",
+               "0,CC 1,CC 2,CC 3,CC 4,CC 5,CC 6,CC 7,CC 8,CK 9,CK ",
+               "digit,DE A,DE B,DE C,DE D,DE E,DE F,DE ",
+               "digit,EE A,EE B,EE C,EE D,EE E,EE F,EE ",
+               "digit,FG digit,GG +,HI -,HI digit,HJ digit,IJ digit,JJ"],
+  "error" :   ["K:Invalid octal digit.;D:Invalid hex digit.;F:Invalid float digit.;H:Invalid scientific notation.;I:Invalid scientific notation."]
+}

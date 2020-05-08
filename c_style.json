@@ -1,0 +1,45 @@
+{
+  "/S"     : ["/S /D","/D"],
+  "/D"     : ["/function","/arrays","/define","/branch","/loop","/variables"],
+
+  "/function"     : ["/type IDN ( /args ) /results","/type MAIN ( ) /results"],
+  "/args"     : ["/type IDN /arg","#"],
+  "/arg"     : [", /type IDN /arg", "#"],
+
+  "/arrays"     : ["/type /array /sign"],
+  "/array"     : ["IDN [ /range ]"],
+  "/variables"     : ["/type IDN /sign"],
+  "/sign"     : [",", ";","#"],
+  "/type"     : ["INT", "CHAR","FLOAT","VOID"],
+  "/range"     : ["#", "CONST"],
+
+
+  "/define"     : ["IDN = /expression ;", "/array = /expression ;"],
+  "/expression"     : ["/expression + /expression_a","/expression_a"],
+  "/expression_a"     : ["/expression_a - /expression_b","/expression_b"],
+  "/expression_b"     : ["/expression_b * /expression_c","/expression_c"],
+  "/expression_c"     : ["( /expression )","IDN","/digit","/array"],
+  "/digit"     : ["CONST", "FLOAT"],
+
+  "/branch"     : ["IF ( /judge_expression ) /results", "IF ( /judge_expression ) /results ELSE /results"],
+  "/judge_expression"     : ["! /judge /judges", "/judge /judges"],
+  "/judges"     : ["#", "/logic /judge /judges"],
+  "/logic"     : ["&&", "||"],
+  "/judge"     : ["/value /compare"],
+  "/compare"     : ["/compare_sign /value"],
+  "/compare_sign"     : [">", "<","<=",">=","==","!="],
+  "/value"     : ["/expression"],
+  "/results"     : ["#", "{ /define /result }","{ /result }"],
+  "/result"     : ["#","/define","/function_call"],
+
+  "/function_call"     : ["IDN /parameters ;"],
+  "/parameters"     : ["( IDN /parameter )"],
+  "/parameter"     : [", IDN","#"],
+
+
+
+  "/loop"     : ["WHILE ( /judge_expression ) /results", "FOR ( /define ; /judge_expression ; /define ) /results","DO /results WHILE ( /judge_expression )"]
+
+
+
+}

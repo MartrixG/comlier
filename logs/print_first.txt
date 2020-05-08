@@ -1,0 +1,32 @@
+S_p_vn {DO_vt, CHAR_vt, IDN_vt, IF_vt, INT_vt, FLOAT_vt, FOR_vt, VOID_vt, WHILE_vt}
+judges_vn {&&_vt, #_epsilon, ||_vt}
+result_vn {IDN_vt, #_epsilon}
+type_vn {CHAR_vt, VOID_vt, INT_vt, FLOAT_vt}
+judge_expression_vn {IDN_vt, (_vt, FLOAT_vt, !_vt, CONST_vt}
+compare_sign_vn {>_vt, !=_vt, >=_vt, ==_vt, <_vt, <=_vt}
+judge_vn {IDN_vt, (_vt, CONST_vt, FLOAT_vt}
+function_call_vn {IDN_vt}
+expression_b_vn {IDN_vt, (_vt, CONST_vt, FLOAT_vt}
+expression_a_vn {IDN_vt, (_vt, CONST_vt, FLOAT_vt}
+D_vn {DO_vt, CHAR_vt, IDN_vt, IF_vt, INT_vt, FLOAT_vt, FOR_vt, VOID_vt, WHILE_vt}
+variables_vn {CHAR_vt, VOID_vt, INT_vt, FLOAT_vt}
+array_vn {IDN_vt}
+sign_vn {#_epsilon, ;_vt, ,_vt}
+logic_vn {&&_vt, ||_vt}
+expression_vn {IDN_vt, (_vt, CONST_vt, FLOAT_vt}
+parameters_vn {(_vt}
+S_vn {DO_vt, CHAR_vt, IDN_vt, IF_vt, INT_vt, FLOAT_vt, FOR_vt, VOID_vt, WHILE_vt}
+args_vn {CHAR_vt, #_epsilon, INT_vt, FLOAT_vt, VOID_vt}
+define_vn {IDN_vt}
+range_vn {#_epsilon, CONST_vt}
+results_vn {#_epsilon, {_vt}
+parameter_vn {#_epsilon, ,_vt}
+compare_vn {>_vt, !=_vt, >=_vt, ==_vt, <_vt, <=_vt}
+arg_vn {#_epsilon, ,_vt}
+arrays_vn {CHAR_vt, VOID_vt, INT_vt, FLOAT_vt}
+function_vn {CHAR_vt, VOID_vt, INT_vt, FLOAT_vt}
+value_vn {IDN_vt, (_vt, CONST_vt, FLOAT_vt}
+branch_vn {IF_vt}
+expression_c_vn {IDN_vt, (_vt, CONST_vt, FLOAT_vt}
+digit_vn {CONST_vt, FLOAT_vt}
+loop_vn {DO_vt, WHILE_vt, FOR_vt}

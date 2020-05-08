@@ -1,0 +1,18 @@
+int a , float b ;
+int arr [ 10 ] ;
+x = a + 6 ;
+arr [ 2 ] = 15 ;
+num = arr [ 2 ] + x ;
+
+if ( a > b ) {
+x = a * b ; }
+
+while ( a < 10 ) {
+x = a + b ; }
+
+void num_plus ( int c , float d ) {
+x = a + b ;
+apple = a + x ; }
+
+int main ( ) {
+num_plus ( c , d ) ; }
